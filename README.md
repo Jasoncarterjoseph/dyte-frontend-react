@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Online Code Editor Using React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+**CodePen** is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
+
+<p align="center">
+  <img  src="https://i.ibb.co/CVNdQtf/Code-Editor.jpg">
+</p>
 
 ## Available Scripts
 
