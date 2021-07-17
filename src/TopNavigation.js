@@ -2,9 +2,39 @@ import React from "react";
 import "./index.css";
 import { faCloud, faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import axios from 'axios';
+function TopNavigation(props)
+{
+    function sharebuttonclick()
+    {
+        // Simple POST request with a JSON body using fetch
+        alert(props.value);
+        const details = {
+            api_dev_key: 'DbcFvnYxtQ0sjlzmBbXPFZzBzI_FanIn',
+            api_option: 'paste',
+            api_paste_code: 'test'
+        };
+       // POST request using axios with set headers
+        const headers = { 
+            'Access-Control-Allow-Origin': '*',       
+            'Accept':'*',      
+            'Content-Type':'application/x-www-form-urlencoded'
 
-export default function TopNavigation() {
-  return (
+             };
+        axios.post('https://pastebin.com/api/api_post.php', details, { headers })
+            .then(response => alert("Success"))
+            .catch(error => {
+                alert('There was an error!'+error);
+            });
+       
+
+
+        // body: { api_dev_key:'DbcFvnYxtQ0sjlzmBbXPFZzBzI_FanIn',api_option:'paste',api_paste_code:'test' }
+    };
+  
+
+
+return (
     <div>
       <div className="mainheader">
         <div className="right">
@@ -18,15 +48,16 @@ export default function TopNavigation() {
         <div>
           <br />
           <div className="buttons">
-            <a target="_blank" href="#">
-              <button className="Topbutton1">
+            
+              <button className="Topbutton1" onClick={() => sharebuttonclick()}>
                 <FontAwesomeIcon color="#ADAFBC" icon={faCloud} />{"\u00A0"}
                 SHARE
               </button>
-            </a>
+            
           </div>
         </div>
       </div>
     </div>
   );
 }
+export default  TopNavigation;

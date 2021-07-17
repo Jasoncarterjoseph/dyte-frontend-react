@@ -31,7 +31,7 @@ const App = () => {
   return (
     <>
       <div>
-        <TopNavigation />
+        <TopNavigation value={srcDoc} />
       </div>
       <Tabs className="titlecolor">
         <TabList>
