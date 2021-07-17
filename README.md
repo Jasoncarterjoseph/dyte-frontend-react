@@ -56,8 +56,7 @@ You will also see any lint errors in the console.
 
 3.	The “live view” section must display the rendered website that was created by the user. When a change is made to any of the index.html, index.css, or index.js files, the “live view” section should hot-reload, and display the new output.
 
-4. Implemented PASTEBIN API 
-  Create a feature to save your code, and generate a shareable link (such as https://editor.io/edit/<unique-id>) that should show the saved code when the link is visited. Use the Pastebin Developer API to save your code, generate a unique link, and then load it back at a later stage.
+4. Implemented PASTEBIN API. Created a feature to save your code, and generate a shareable link (such as https://editor.io/edit/<unique-id>) that should show the saved code when the link is visited. Use the Pastebin Developer API to save your code, generate a unique link, and then load it back at a later stage.
   (Network Error)
  
 5. Deploy the website on Github pages.
