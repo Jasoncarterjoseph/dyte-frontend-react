@@ -7,6 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <p align="center">
   <img  src="https://i.ibb.co/M9B2K6v/Code-Editor.jpg">
 </p>
+### Built With
+* [React JS](https://reactjs.org)
+* 
+### Demo
+[https://codeeditor-jaeson.netlify.app/](https://codeeditor-jaeson.netlify.app/)
 
 ## Available Scripts
 
