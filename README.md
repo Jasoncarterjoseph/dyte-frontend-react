@@ -15,6 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Demo
 [https://codeeditor-jaeson.netlify.app/](https://codeeditor-jaeson.netlify.app/)
 
+### GIT HUB Pages Deploy Link
+[https://jasoncarterjoseph.github.io/DYTE-Frontend-React-/](https://jasoncarterjoseph.github.io/DYTE-Frontend-React-/)
+
 ### Installation
 
 1. Clone the repo
